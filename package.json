@@ -1,0 +1,30 @@
+{
+  "name": "@Association-Evangelical-Students/axios-client",
+  "version": "0.1.2",
+  "description": "axios client",
+  "main": "dist/index.js",
+  "author": "Oleh Mushka <olegamysk@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=12.13"
+  },
+  "repository" : {
+    "type" : "git",
+    "url": "ssh://git@github.com/Association-Evangelical-Students/axios-client.git"
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "scripts": {
+    "build": "tsc --pretty",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "devDependencies": {
+    "@types/axios": "0.14.0",
+    "@types/node": "14.0.12",
+    "typescript": "3.9.5"
+  },
+  "dependencies": {
+    "@Association-Evangelical-Students/logger": "0.0.0",
+    "axios": "0.19.2"
+  }
+}
